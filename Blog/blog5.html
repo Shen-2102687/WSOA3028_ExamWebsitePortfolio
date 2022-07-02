@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Webpage for blog post 5" />
+    <meta
+      name="keywords"
+      content="portfolio, website, blogs, internet, UX, UI, Design, web, analysis"
+    />
+    <title>Blog 5</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/70daf74b97.js"
+      crossorigin="anonymous"
+    ></script>
+    <base href="../" />
+  </head>
+  <body>
+    <!--<h1>Portfolio Website</h1>-->
+    <header>
+      <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+      <nav>
+        <ul id="mobileNav">
+          <li id="Home" onclick="navigate5(1)">Home</li>
+          <li id="Games" onclick="navigate5(2)">Games</li>
+          <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+          <li id="Blogs" onclick="navigate5(4)" class="active">Blogs</li>
+          <li id="Design/Wireframes" onclick="navigate5(5)">
+            Design/Wireframes
+          </li>
+        </ul>
+        <label class="iconBars"
+          ><i class="fa-solid fa-bars" onclick="navMobile()"></i
+        ></label>
+      </nav>
+    </header>
+
+    <h1 class="blog2H1">Critical Analysis of my UX and UI</h1>
+
+    <section class="blog1Post">
+      <article class="h-entry">
+        <p class="p-name">A Critical Analysis of my UX and UI</p>
+        <p class="boldTitle">What is UX?</p>
+        <p>
+          UX is defined as “User Experience”. This definition is quite vague and
+          can have multiple interpretations, as noted by Marc Hassenzahl and
+          Noam Tractinsky[1]. For the purpose of my portfolio website, I have
+          chosen to define “User Experience” as the design principles and
+          practices that are implemented which inform how the user interacts
+          with and navigates the website.
+        </p>
+        <p class="boldTitle">What is UI?</p>
+        <p>
+          UI is the aesthetic and cosmetic design of the website. It is the
+          visual design and representation of the website[2].
+        </p>
+        <p class="boldTitle">How is this implemented</p>
+        <p class="boldTitle">Main goal:</p>
+        <p>
+          The main goal for my website design is to achieve a minimalistic and
+          neat design that is both easy and intuitive to use.
+        </p>
+        <p>
+          The following design decisions have been made to attempt to achieve
+          this goal:
+        </p>
+        <p class="boldTitle">Colour:</p>
+        <p>
+          To achieve the minimalist and neat design aesthetic, I have made use
+          of minimal colour in the website. The main source of colour is the Nav
+          Bar, a pale dark blue. The rest of the website is comprised of white
+          and grey tones to contrast the Nav Bar, this allows the user’s sight
+          to be drawn to the Nav Bar, which indicates to the user what content
+          they can find on the website.
+        </p>
+        <p>
+          These pale and feint colours were also chosen so that the user’s eyes
+          do not become strained when browsing.
+        </p>
+        <p>
+          The colour of the text on the Nav Bar is a feint white on the orange
+          spectrum. This was done to allow the font to stand out against the
+          dark blue on the Nav Bar, since orange and blue are complementary
+          colours, and plain white would cause discomfort to the user’s eyes.
+        </p>
+        <p>
+          The font colour for rest of the website is plain black. It contrasts
+          the feint white backgrounds and allows for the text to be comfortably
+          read.
+        </p>
+        <p>Selectable elements are highlighted when hovered over.</p>
+        <p>
+          The colour of the Nav Bar highlights is also a pale white on the
+          orange spectrum(but a different colour to the Nav Bar Text), to allow
+          the highlight to stand out against the blue Nav Bar(similar to the
+          text reasoning).
+        </p>
+        <p>
+          The paper-card elements are highlighted in a feint grey to contrast
+          the light background.
+        </p>
+        <p>
+          Highlighting selectable elements in contrasting colours help emphasize
+          that the element is selectable/has been selected.
+        </p>
+        <p class="boldTitle">Font</p>
+        <p>
+          The serif font “Times New Roman” was chosen for all text elements on
+          the website. This font offered easier and more comfortable reading
+          compared to sans-serif fonts. As noted by Peta Goldberg, serif fonts
+          have better readability than sans-serif fonts[2]. This font also helps
+          the text look simple and elegant which aids in achieving the clean and
+          neat aesthetic goal of the website design.
+        </p>
+        <p>
+          When conducting research for font types, several articles such as “The
+          7 Best Modern Fonts for Websites” by Justin Morales[3], suggest that
+          sans-serif fonts provide a sophisticated and minimalistic look to the
+          text. However, when I tried to implement sans-serif fonts such as
+          Verdana and Arial, the text looked cartoonish and was uncomfortable to
+          read in comparison to the serif fonts. So this is why a serif-based
+          font has been used for my website.
+        </p>
+        <p class="boldTitle">Layout</p>
+        <p>
+          The layout for each page was designed to feel neat and not cluttered.
+          There are only a few elements on each page, and all the elements are
+          placed centrally. This creates open space on the left and right sides
+          of each page, which in turn helps to make the elements the focal
+          points of the page. Peta Goldberg discusses how creating a focal point
+          creates an area of interest, so by making the content on a webpage the
+          focal point, the user is naturally guided towards it, which helps them
+          engage with the content of the page[2].
+        </p>
+        <p>
+          Peta Goldberg also discusses the importance of maintaining composition
+          in website so that design feels intentional, consistent, and pleasing
+          to view[2]. The visual weight, balance and alignment differs on each
+          page depending on the content of the page. The Games and Code Projects
+          pages each only have 2 selectable items, so the items were placed
+          centrally and side by side in order to create symmetrical balance. The
+          Blogs page has 3 items on it(and will have more in the future), so the
+          items are placed centrally underneath one another to create radial
+          balance. Since the items on this page are blog posts, this layout aims
+          to keep in convention with the layout of popular social media
+          platforms such as Twitter, Facebook and Instagram, where posts are
+          placed one under the other.
+        </p>
+        <p>
+          The Nav Bar is placed at the top of the website but is not pinned to
+          the top of the user’s screen while they scroll through the site. This
+          allows the user to engage with the content of the website without the
+          Nav Bar distracting the user.
+        </p>
+        <p>
+          The Footer is placed at the bottom of the page, this indicates the end
+          of the page’s content and also serves to indicate the copyright
+          information of the website.
+        </p>
+        <p>
+          I implemented the Law of Locality to help the design of the website
+          feel intuitive for users[2].
+        </p>
+        <p>The Law of Locality</p>
+        <p>
+          Law 1: Put an element where it will effect change<br />Law 2: If an
+          element changes an entire area, put it above the area<br />Law 3: If
+          an element is far from where it effects change, make it pop
+        </p>
+        <p>The layout of my website makes use of Laws 1 and 2.</p>
+        <p>
+          The Nav Bar makes change across the entire webpage area when a section
+          is selected, so it has been placed at the top of the website, since it
+          will change the area underneath it.
+        </p>
+        <p>
+          The selectable items on the pages are placed where they will affect
+          change. For example, on the Games page selecting a game from the list
+          will change what is displayed on that page.
+        </p>
+        <p class="boldTitle">Selectable elements</p>
+        <p>
+          Elements that are selectable lists or buttons are designed to look
+          like paper-cards. This was done to create a neat aesthetic. This
+          decision was also made in order to provide a small feeling of depth,
+          so that the elements would not feel flat and dull, and also to
+          contrast them from the flat background to show that they are
+          interactable.
+        </p>
+        <p>
+          These elements as well as logos on the Games page, are given rounded
+          corners. Peta Goldberg mentions that rounded corners on elements offer
+          a friendly and positive mood[2]. Since this is a portfolio website to
+          showcase our skills, I wanted the elements to feel welcoming and
+          friendly, to encourage interaction from the user.
+        </p>
+        <p class="boldTitle">Informing user of options and decisions</p>
+        <p>
+          In order to inform the user of changes and decisions on the website,
+          all content that is selectable is highlighted when it is hovered over.
+        </p>
+        <p>
+          To inform the user of the current page they are on, the current page
+          text is always highlighted on the Nav Bar. This is an implementation
+          of the Von Restorff Effect – when multiple similar objects are
+          present, one that differs from the rest is most likely remembered.
+          This helps prevent confusion when navigating the website[2] . When
+          selecting a page from the Nav Bar, the highlighted block displayed is
+          smaller than the block of the current page. This is to prevent
+          confusion for what is currently displayed and what is being selected.
+          This also gives the user confirmation of their selection if they
+          change pages, since the highlight size will increase and remain in
+          place.
+        </p>
+        <p>
+          There is also navigation within the pages so that the user does not
+          have to only rely on the Nav Bar. Where applicable, if a user selects
+          an item from a list on a page, there is a button at the bottom of the
+          content of that page to allow the user to return to the list. This
+          allows the user to return to the list faster than if they were to use
+          the Nav Bar. This is a simple implementation of Hick’s Law, since
+          there are only 2 options presented to the user, they can make a quick
+          decision of where they want to navigate to next. Either they return to
+          the list or they use the Nav Bar to go to a new section of the
+          website[2].
+        </p>
+        <p class="boldTitle">Reflection on Implementation</p>
+        <p>
+          I believe that I have implemented good UX and UI practices to achieve
+          my goal of creating a minimalistic website design that is easy and
+          intuitive to use.
+        </p>
+        <p>
+          The website informs the user of potential decisions they can make, as
+          well as confirmations of their decisions, it provides the user with
+          easy and meaningful navigation, and the font, colour and text
+          decisions allow the user to comfortably engage with the website
+          without feeling strain or discomfort.
+        </p>
+        <p>
+          Despite succeeding in my initial goals for this website, there are 2
+          main faults in the UX and UI design:
+        </p>
+        <p class="boldTitle">Limited Viewports:</p>
+        <p>
+          The website has not been designed to account for screen sizes other
+          than 1920x1080 pixel screens. The website does not render correctly on
+          smaller screen devices, such as tablets and phones. The elements and
+          text all collapse on one another or move out of place and the site is
+          unusable.
+        </p>
+        <p>
+          This is poor web design and limits the amount of people who are able
+          to engage with the website. This design also does not follow
+          Responsive Web Design principles[2].
+        </p>
+        <p>
+          This issue will be addressed and Responsive Design for different
+          viewports will be added during the continued development of this
+          website.
+        </p>
+        <p class="boldTitle">Difficulty reading the wireframes:</p>
+        <p>
+          The wireframes for this website were provided as an embedded pdf on
+          the Wireframes page. However, this design makes it difficult to read
+          and engage with the content of the wireframes. While I have also
+          included a download option to download and open the pdf separately,
+          which would be easier to read than an embedded pdf, this also creates
+          a new issue of the user needing to leave the website to read the
+          wireframe. This decreases the engagement from the user and can cause
+          frustration from the lack of ease for reading the wireframe.
+        </p>
+        <p>
+          This issue will also be addressed during the development of the
+          website. Instead of the wireframes being displayed as an embedded pdf,
+          they will rather just be directly placed on the webpage using HTML and
+          CSS. This will allow for easier and more comfortable reading.
+        </p>
+        <p class="boldTitle">Conclusion</p>
+        <p>
+          It is evident that good UX and UI practices have been implemented, but
+          there is still some room to improve to allow the user to a better
+          experience.
+        </p>
+      </article>
+    </section>
+
+    <section class="References">
+      <article>
+        <p>References:</p>
+        <p>
+          [1]. Author: Marc Hassenzahl; Noam Tractinsky, “User Experience – a
+          research agenda”, March-April 2006
+        </p>
+        <p>
+          [2]. Author: Peta Goldberg, “A Crash Course In User Experience [+]
+          Interface Design”
+        </p>
+        <p>
+          [3].<a
+            href="https://xd.adobe.com/ideas/principles/web-design/best-modern-fonts-for-websites/"
+            target="_blank"
+          >
+            https://xd.adobe.com/ideas/principles/web-design/best-modern-fonts-for-websites/</a
+          ><br />Author: Justin Morales, “The 7 Best Modern Fonts for Websites”,
+          30 September 2021
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <p class="backToBlogs" onclick="navigate5(4)">Blog List</p>
+    </section>
+
+    <footer class="h-card">
+      <p>
+        All Code, Games, Images and Documents belong to me, Shen Reddy© 2022
+      </p>
+    </footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.7.1.min.js"
+  ></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
+</html>

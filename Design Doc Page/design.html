@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Webpage with Design and Wireframes" />
+    <meta name="keywords" content="portfolio, website, wireframes, style, guide"/>
+    <title>Design</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="https://kit.fontawesome.com/70daf74b97.js" crossorigin="anonymous"></script>
+    <base href="../">
+</head>
+<body>
+    
+    <!--<h1>Portfolio Website</h1>-->
+    <header>
+        <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+        <nav>
+            <ul id="mobileNav">
+                <li id="Home" onclick="navigate5(1)">Home</li>
+                <li id="Games" onclick="navigate5(2)">Games</li>
+                <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+                <li id="Blogs" onclick="navigate5(4)">Blogs</li>
+                <li id="Design/Wireframes" onclick="navigate5(5)" class="active">Design/Wireframes</li>
+            </ul>
+            <label class="iconBars"><i class="fa-solid fa-bars" onclick="navMobile()"></i></label>
+        </nav>
+    </header>
+
+    
+
+    <h1 class="wireframeH1">Wireframes and Designs</h1>
+
+    <!-- <section class="pdfDoc">
+        <iframe src="Design Doc Page/Wireframe and Designs.pdf" type="application/pdf" style="width: 1000px; height: 1080px;"></iframe>
+    </section> -->
+
+    <section>
+        <img src="Design Doc Page/wireframeCrop.png" alt="image for wireframe designs" class="wireFrames">
+    </section>
+
+    <section>
+        <img src="Design Doc Page/mobileWireFrame.png" alt="image for mobile wireframe designs" class="wireFrames">
+    </section>
+
+    <section>
+        <img src="Design Doc Page/viewPortText.png" alt="image for viewport explanation" class="styleGuide">
+    </section>
+
+    <section>
+        <img src="Design Doc Page/styleGuide.png" alt="image for style guide" class="styleGuide">
+    </section>
+
+    <section>
+        <img src="Design Doc Page/viewPortRef.png" alt="image for mobile viewport references" class="styleGuide">
+    </section>
+
+    <p class="pdfLink">
+        <a id="gitHubLink"href="https://github.com/Shen-2102687/WSOA3028_Assignment2PortfolioWebsite/blob/main/Design%20Doc%20Page/Wireframe%20and%20Designs.pdf"target="_blank">Download PDF</a>
+      </p>
+
+    <footer class="h-card">
+        <p>All Code, Games, Images and Documents belong to me, Shen Reddy© 2022</p>
+      </footer>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="Javascript/navigation.js"></script>
+</html>

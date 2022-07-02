@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Webpage for blog post 2" />
+    <meta
+      name="keywords"
+      content="portfolio, website, blogs, internet, reflection, technical, creative, JavaScript"
+    />
+    <title>Blog 7</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/70daf74b97.js"
+      crossorigin="anonymous"
+    ></script>
+    <base href="../" />
+  </head>
+  <body>
+    <!--<h1>Portfolio Website</h1>-->
+    <header>
+      <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+      <nav>
+        <ul id="mobileNav">
+          <li id="Home" onclick="navigate5(1)">Home</li>
+          <li id="Games" onclick="navigate5(2)">Games</li>
+          <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+          <li id="Blogs" onclick="navigate5(4)" class="active">Blogs</li>
+          <li id="Design/Wireframes" onclick="navigate5(5)">
+            Design/Wireframes
+          </li>
+        </ul>
+        <label class="iconBars"
+          ><i class="fa-solid fa-bars" onclick="navMobile()"></i
+        ></label>
+      </nav>
+    </header>
+
+    <h1 class="newBlogH1">
+      Critical Reflection on the Technical, Creative and Development Process of
+      this Website</h1>
+
+    <section class="blog1Post">
+      <article class="h-entry">
+        <p class="p-name">
+          Critical Reflection on the Technical, Creative and Development Process
+          of this Website
+        </p>
+        <p class="boldTitle">Website Development Process</p>
+        <p>
+          The development of this website was an iterative process, building
+          upon what was created in Assignment 1. The website has been designed
+          to meet the specifications of the assignment brief and has followed
+          conventional practices.
+        </p>
+        <p class="boldTitle">Technical Development and Reflection</p>
+        <p class="boldTitle">Use of Semantic Markup:</p>
+        <p>
+          I have implemented consistent and appropriate Semantic Markup
+          throughout the website. Some examples of this include:
+        </p>
+        <ul>
+          <li>Using p tags for paragraph text</li>
+          <li>Using article tags to define articles of text</li>
+          <li>Using section tags to define specific sections of the website</li>
+          <li>Using nav tags for navigation elements</li>
+        </ul>
+        <p>
+          The full extent of the semantic markup is reflected in the HTML source
+          code for this website.
+        </p>
+        <p>
+          Using good Semantic Markup has also simplified the styling process of
+          the website. Elements were easily accessible in the stylesheet and the
+          positioning and design of elements were simplified by the Semantic
+          Markup.
+        </p>
+        <p>
+          For example(this is an oversimplified example), large sections of text
+          such as a blog post were structured in the following manner:
+        </p>
+        <p>"(section)(article)(p)(/p)(p)(/p)(/article)(/section)"</p>
+        <p>
+          To move the entire body of text, only the section tag would need to be
+          accessed via a class to do this, as opposed to needing to create a
+          class for each p tag and move each one individually.
+        </p>
+        <p>
+          CSS and JavaScript have also been externally linked to the HTML and
+          there is not styling or script implemented directly in the HTML
+          document.
+        </p>
+        <p class="boldTitle">Search Engine Optimisation(SEO):</p>
+        <p>
+          SEO has been implemented in through the use of appropriate Metadata
+          tags, Headers and Microformats. The use of elements allows for Web
+          Crawlers to access appropriate information about the site and use it
+          for search query result purposes.
+        </p>
+        <p class="boldTitle">Responsive Design:</p>
+        <p>
+          The website makes use of Responsive Design that caters to 3 distinct
+          form factors. The specific styling and design choices behind this is
+          detailed later in this document, as well as in the design page of this
+          website.
+        </p>
+        <p>
+          The technical implementation of the Responsive Design was done through
+          media queries in the CSS, this allowed for breakpoints to be created
+          for when the design should change based on the device viewport.
+        </p>
+        <p class="boldTitle">Performance:</p>
+        <p>
+          To ensure optimised performance of the website, all images that have
+          been used are small in file size. Where appropriate(such as the
+          wireframes), the images have been implemented as transparent PNG
+          files, to only show necessary information and decrease the file size
+          needed for the image. This also allows for the content to blend in
+          with the rest of the website as the background of the images will
+          simply be the body of the website.
+        </p>
+        <p class="boldTitle">JavaScript:</p>
+        <p>
+          JavaScript is mainly used to serve functional purposes on the website.
+        </p>
+        <p>
+          The navigation of the website is controlled by JavaScript. A
+          navigation function is called whenever a navigation element is clicked
+          and is given the specific navigation parameter for that element. The
+          navigation function takes in the parameter and uses switch cases to
+          determine where the website must navigate to based on that input
+          parameter.
+        </p>
+        <p>
+          This method of navigation works perfectly for the content scope of
+          this website.
+        </p>
+        <p>
+          Another method that was considered for the navigation was to use
+          JavaScript to dynamically generate the navigation elements and
+          implement them in the HTML documentation based on where and what the
+          user is doing. This method would consist of creating navigation
+          elements through DOM manipulation in a separate JavaScript file which
+          would then determine what elements are needed on the page that is
+          being accessed, and through DOM manipulation the elements would be
+          appended to the HTML document.
+        </p>
+        <p>
+          This method would be useful since it can dynamically generate the
+          navigation elements needed for a page without needing them to be
+          manually coded in the HTML, and this would be useful for large content
+          websites with lots of navigation points – such as Amazon, which has
+          millions of pages for products and required dynamic navigation for
+          efficiency and optimisation.
+        </p>
+        <p>
+          However, for the purposes of this small scale portfolio website, the
+          amount of code needed to create this dynamic generation would
+          significantly outweigh the code needed to create the JavaScript
+          navigation as it stands now, and so it is not justifiable to use this
+          as an efficient solution for the navigation.
+        </p>
+        <p>
+          JavaScript has also been used to create a mobile navigation menu. DOM
+          manipulation is used to determine when the user has clicked the menu
+          bar and the navigation tab is displayed/toggled appropriately.
+        </p>
+        <p>
+          JavaScript has also been implemented to create a sort function for the
+          blog posts where they can be sorted in order of most recent or oldest
+          posts. The implementation of this function is short and simple because
+          the blogs were created using a flex display with a column direction.
+          DOM manipulation is used to sort the blogs by reversing the current
+          direction of the blogs column based on the user selection. This method
+          to sort by date/time does not require intensive traversing of elements
+          and nodes because the flex implementation of the blogs already gives
+          them a default order based on the order in which they are listed in
+          the HTML document.
+        </p>
+        <p>
+          I have also used JavaScript as method of informing the user of their
+          actions on the website. If a user clicks on a download link for a game
+          or code project, a browser alert message is displayed to the user to
+          inform them that they will be taken to my GitHub page. This is to
+          ensure the user is aware of what is happening and does not suddenly
+          become confused as to why a new tab has been opened.
+        </p>
+        <p>
+          The JavaScript functions are also separated into responsibilities for
+          DOM Manipulation and Data Processing for efficiency.
+        </p>
+        <p>
+          All of the JavaScript functions do not exceed 8 lines unless
+          necessary. The Navigation function exceeds 8 lines because of the
+          processing required for the switch cases. Breaking the function into
+          multiple functions would create more lines of code in total than this
+          single function, so this is the most efficient implementation of this
+          function.
+        </p>
+        <p>
+          The usage of JavaScript in the website is efficient and facilities
+          functional usage and user feedback.
+        </p>
+        <p class="boldTitle">Technical implementation of CSS:</p>
+        <p class="boldTitle">General Techniques</p>
+        <p>
+          To ensure consistency in the code implementation of the CSS, I have
+          designated specific uses for classes and ID’s as CSS selectors.
+          Classes are only used to add styling to the HTML elements via the
+          stylesheet, and ID’s are only used for the purpose of DOM manipulation
+          for JavaScript functions.
+        </p>
+        <p class="boldTitle">Specific Techniques</p>
+        <p>
+          Visually, the style and aesthetic of the website is mostly same as the
+          version from Assignment 1, however some of the implementation and
+          design to achieve this result has changed for this current assignment.
+        </p>
+        <p>
+          Initially(for Assignment 1), the display of the games and code project
+          lists were created by adding padding to the listed html elements(li
+          tags), displaying them in an in-line block design, and manually
+          positioning each item in the list with specific margin and position
+          values to achieve the desired design. This method was inefficient as
+          each item required different values for the mentioned CSS parameters
+          and the correct visual spacing had do be determined through multiple
+          tests of trial an error. Another issue that also arose from this
+          implementation design was that the elements could only display
+          correctly for the one specific viewport for which it had been
+          designed, and this meant that any small change in viewport display or
+          any small change in a positioning value of other elements on the page
+          would result in a break of the list display(the paper cards would
+          stack on top of each other and the items could not be used or
+          understood).
+        </p>
+        <p>
+          To resolve this issue, the technical implementation of the lists were
+          changed to a flex display with a row direction property. The flex
+          display allowed for the elements to be easily spaced and aligned on
+          the page without having dependencies on the position of other elements
+          on the page. This also aided in creating responsive design. For
+          smaller viewports for mobile devices, the direction property is simply
+          changed to a column display, without needing to make tedious manual
+          position changes as with Assignment 1, which allows the elements to
+          appropriately collapse and stack in an order that is appropriate for
+          the mobile viewport.
+        </p>
+        <p>
+          This technical change has also simplified the design testing process.
+          The list elements could be moved and edited with ease, allowing for
+          simple and quick testing to occur.
+        </p>
+        <p>
+          In Assignment 1, the blog list was implemented using a grid display,
+          however this proved to be inefficient and tedious. The blog list is
+          comprised of 1 column with 7 rows, and needs to be positioned in the
+          centre of the page, but the grid styling makes this process difficult.
+          Similar to the process described for the games list, manual
+          positioning with trial an error is required to appropriately centre
+          the blog list, and this also does not collapse correctly for different
+          viewports.
+        </p>
+        <p>
+          Changing the display property to flex with a column direction allowed
+          for the blog list to be easily centred and scaled for different
+          viewports. This design also simplified the JavaScript needed to
+          implement the sort by date function for the blog list, since the
+          function simply had to use DOM manipulation to change to flex
+          direction property of the list. This method is detailed further in the
+          JavaScript section of this document.
+        </p>
+        <p>
+          These technical changes have resulted in efficiently achieving a
+          similar display and aesthetic to Assignment 1.
+        </p>
+        <p class="boldTitle">Creative Development and Reflection</p>
+        <p>
+          The creative design goal of the website was to create a website with a
+          clean and minimalistic aesthetic. I wanted the website to be
+          comfortable and intuitive to use. The design process, documentation
+          and reflection on achieving this has been rigorously detailed and
+          documented in both the Design section of this website and in the Week
+          5 Critical Writing Blog Post.
+        </p>
+        <p>
+          This section will detail the creative faults of the website from
+          Assignment 1 and how they have been addressed.
+        </p>
+        <p>
+          The two main faults identified from Assignment 1 was the lack of
+          Responsive Design and the display implementation of the Design page
+          and wireframe content.
+        </p>
+        <p>
+          The first version of the website had not support for different
+          viewport displays, this was poor Responsive Web Design. Lack of
+          support for different viewports for a website means that less people
+          are able to use and engage with the website. This is specifically
+          problematic for a portfolio website, since limited engagement can
+          prevent a potential employer from accessing this portfolio.
+        </p>
+        <p>
+          To address this issue, Responsive Design was added for 3 viewports:
+        </p>
+        <ul>
+          <li>A laptop/desktop viewport for a minimum width of 1400px</li>
+          <li>A tablet viewport for a width less than 1400px</li>
+          <li>A mobile viewport for a width less than 600px</li>
+        </ul>
+        <p>
+          It is difficult to create Responsive Design for all possible devices
+          since there is a wide variety between viewport display sizes in
+          different devices. I have attempted to implement possible viewport
+          support for devices within specific ranges, however this does not
+          ensure that every device within the range can be supported by the
+          display, which is why I have ensured that the design works for the 3
+          specific viewports mentioned above.
+        </p>
+        <p>
+          The design of the website remains the same between laptop/desktop
+          displays and tablet displays. The design of some of the pages and
+          elements have been changed to support the mobile form factor. The
+          design choices and documentation for this is detailed in the Design
+          section of this website.
+        </p>
+        <p>
+          The display for the Design page and wireframes was implemented using
+          an embedded pdf for Assignment 1. My reasoning behind this was that a
+          pdf would be easier to read and also had the benefit of being
+          downloadable if desired. However this was proven incorrect as feedback
+          given for the website indicted that the pdf made it difficult to
+          engage with the website. I also noted that the embedded pdf did not
+          scale correctly to different viewport sizes.
+        </p>
+        <p>
+          To address this issue, the Design documents and wireframes have been
+          directly added to the webpage as images. The decision behind this is
+          that the images can be easily resized for laptop/desktop and tablet
+          viewports, allowing for a consistent display across the different
+          devices that access it.
+        </p>
+        <p>
+          The design documents and wireframes are also included as a pdf via a
+          downloadable link as well(as opposed to an embedded section). This
+          allows anyone to access it as a document if they wish.
+        </p>
+        <p>
+          This addition has also been made for the purpose of the mobile view of
+          the design page. It is not possible to effectively scale and position
+          the images and text in a manner that is convenient to read and use on
+          the mobile display. So the design has remained the same as the desktop
+          view for consistency purposes, and the pdf link will provide an option
+          for the user to comfortably read the designs as a document on their
+          mobile device.
+        </p>
+        <p>
+          The creative design issues from Assignment 1 have been efficiently
+          resolved. The website can support 3 distinct viewports and the new
+          implementation of the design page and wireframes allows for better
+          user engagement.
+        </p>
+        <p class="boldTitle">Conclusion:</p>
+        <p>
+          The development of this website has been a time consuming process and
+          many hours of work were needed to achieve the design goals that I set
+          for this website.
+        </p>
+        <p>
+          I have made use of extensive semantic, technical and creative design
+          practices to ensure that my website is functional based on the design
+          goal I set, and based on this I believe that I have achieved my goals
+          in an efficient and well executed manner.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <p class="backToBlogs" onclick="navigate5(4)">Blog List</p>
+    </section>
+
+    <footer>
+      <p class="h-card">
+        All Code, Games, Images and Documents belong to me, Shen Reddy© 2022
+      </p>
+    </footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.7.1.min.js"
+  ></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
+</html>

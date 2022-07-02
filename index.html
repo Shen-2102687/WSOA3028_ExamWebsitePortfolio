@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Website for games, blogs and code" />
+    <meta name="keywords" content="portfolio, website, games, code, blogs"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="https://kit.fontawesome.com/70daf74b97.js" crossorigin="anonymous"></script>
+    <!--<base href="../">-->
+    
+  </head>
+  <body>
+    <header>
+      <!--<h1 class="siteTitle">Portfolio Website</h1>-->
+      <!--<h2>Home</h2>-->
+
+      <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+
+      <nav class="navBar">
+        <ul id="mobileNav">
+          <li id="Home" onclick="navigate5(1)" class="active"><!--<a href="index.html" class="active"> Home</a>-->Home</li>
+          <li id="Games" onclick="navigate5(2)">Games</li>
+          <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+          <li id="Blogs" onclick="navigate5(4)">Blogs</li>
+          <li id="Design/Wireframes" onclick="navigate5(5)">Design/Wireframes</li>
+        </ul>
+        <label class="iconBars"><i class="fa-solid fa-bars" onclick="navMobile()"></i></label>
+      </nav>
+    </header>
+
+    <h1 class="indexH1">Hi There! Welcome to my Portfolio Website!</h1>
+    <section class="homeDescription">
+      <article class="p-summary">
+        I am an Electrical Engineer and Game Design student at the University of
+        the Witwatersrand. This is my Portfolio Website to showcase my skills in
+        Design, Games and Coding. This site also contains Blog Posts written by myself about topics related to the internet.
+      </article>
+    </section>
+
+    <footer class="h-card">
+      <p>All Code, Games, Images and Documents belong to me, Shen Reddy© 2022</p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
+</html>

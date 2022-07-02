@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page containing game 2" />
+    <meta name="keywords" content="portfolio, games, sushi, ninja, star, angry, birds"/>
+    <title>Game 2</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="https://kit.fontawesome.com/70daf74b97.js" crossorigin="anonymous"></script>
+    <base href="../">
+  </head>
+  <body>
+    <header>
+      <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+      <nav>
+        <ul id="mobileNav">
+            <li id="Home" onclick="navigate5(1)">Home</li>
+            <li id="Games" onclick="navigate5(2)" class="active">Games</li>
+            <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+            <li id="Blogs" onclick="navigate5(4)">Blogs</li>
+            <li id="Design/Wireframes" onclick="navigate5(5)">Design/Wireframes</li>
+        </ul>
+        <label class="iconBars"><i class="fa-solid fa-bars" onclick="navMobile()"></i></label>
+      </nav>
+    </header>
+
+    <section class="game2Logo">
+      <img
+        src="Games/Ninja vs Sushi Logo.png"
+        alt="Logo for the game Meteor Pong"
+      />
+    </section>
+
+    <section class="blog1Post">
+      <article>
+        <p>
+          Ninja vs Sushi is a game inspired by the original game Angry Birds.
+          The goal of the game is to destroy the Sushi by either hitting them
+          directly with a star or using the star to destroy other objects so
+          that the sushi fall and hit the ground.
+        </p>
+        <p>
+          The game was made using the Unity Game Engine, and all art, assets and
+          coding was created by myself.
+        </p>
+        <p>
+          Download instructions:<br />Please follow the link below to download
+          the game from my GitHub Repo.<br />
+          Click download option that appears on the page for build.zip file.<br />
+          Once downloaded, unzip/extract the build from the folder and click on
+          the "Angry birds assignment.exe" file to play the game.
+        </p>
+        <p>
+          Play Instructions are included in the game. Exit the game any time
+          using Alt+F4.
+        </p>
+        <p>
+          <a id="gitHubLink"
+            href="https://github.com/Shen-2102687/Portfolio-GamesAndCodeFiles/blob/main/Ninja%20vs%20Sushi.zip"
+            target="_Blank">Download Game</a>
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <p class="backToBlogs" onclick="navigate5(2)">Games List</p>
+    </section>
+
+    <footer class="h-card">
+      <p>All Code, Games, Images and Documents belong to me, Shen Reddy© 2022</p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
+  <script type="text/javascript" src="Javascript/redirect.js"></script>
+</html>

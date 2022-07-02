@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Website for code project 1" />
+    <meta name="keywords" content="portfolio, website, code, c++, integer, words, conversion"/>
+    <title>Code Project 1</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script src="https://kit.fontawesome.com/70daf74b97.js" crossorigin="anonymous"></script>
+    <base href="../">
+  </head>
+  <body>
+    <header>
+      <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+      <nav>
+        <ul id="mobileNav">
+            <li id="Home" onclick="navigate5(1)">Home</li>
+            <li id="Games" onclick="navigate5(2)">Games</li>
+            <li id="codeProjects" onclick="navigate5(3)" class="active">Code Projects</li>
+            <li id="Blogs" onclick="navigate5(4)">Blogs</li>
+            <li id="Design/Wireframes" onclick="navigate5(5)">Design/Wireframes</li>
+        </ul>
+        <label class="iconBars"><i class="fa-solid fa-bars" onclick="navMobile()"></i></label>
+      </nav>
+    </header>
+
+    <h1 class="codeProject1H1">Convert Numbers to Words</h1>
+
+    <section class="blog1Post">
+      <article>
+        <p>
+          This is a C++ programme that takes in any interger Num, where 0&lt;=
+          Num &lt;= 10 000, and converts it to its English equivalent phrase.
+        </p>
+        <p>
+          The programme runs on any IDE that can support C++ and has a console to
+          run the code.
+        </p>
+        <p>
+          To use the programme, run the file on an IDE as described above and
+          simply enter an integer of choice in the console and then press ENTER.
+          The console will output the correct English phrase.
+        </p>
+        <p>
+          For Example:<br />
+          Input: 300<br />
+          Output: Three Hundred
+        </p>
+        <p>
+          Download instructions:<br />Please follow the link below to download
+          the file from my GitHub Repo.<br />
+          Click download option that appears on the page for "Convert Numbers to
+          Words.zip" file.<br />
+          Extract/Unzip the "Convert Numbers to Words.cpp" file and run it.
+        </p>
+        <p>
+          <a id="gitHubLink"
+            href="https://github.com/Shen-2102687/Portfolio-GamesAndCodeFiles/blob/main/Convert%20Numbers%20to%20Words.zip"
+            target="_blank"
+            >Download Project</a>
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <p class="backToBlogs" onclick="navigate5(3)">
+       Code Project List
+      </p>
+    </section>
+
+    <footer class="h-card">
+      <p>All Code, Games, Images and Documents belong to me, Shen Reddy© 2022</p>
+    </footer>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
+  <script type="text/javascript" src="Javascript/redirect.js"></script>
+</html>
