@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="../CSS/normalize.css" />
     <link rel="stylesheet" href="../CSS/style.css" />
     <script src="https://kit.fontawesome.com/70daf74b97.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="../Javascript/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="../Javascript/slick/slick-theme.css"/> -->
+    
     <base href="../">
   </head>
   <body>
@@ -39,15 +43,28 @@
     </div>
 
     <section class="blogList">
-      <ul class="h-feed" id="blogs">
-        <li onclick="navigate5(10)"><br>Critical Writing 1:<br>A reflection of Simon Harper’s reflection of “As We May Think”<br> <br>Posted: 14 March 2022</li>
-        <li onclick="navigate5(11)"><br>Critical Writing 2:<br>What is a browser? How do they work?<br> <br>Posted: 28 March 2022</li>
-        <li onclick="navigate5(12)"><br>Critical Writing 3:<br>The Uses of Metadata - What, Why and How?<br> <br>Posted: 16 April 2022</li>
-        <li onclick="navigate5(13)"><br>Critical Writing 4:<br>Toward a study of information geographies<br> <br>Posted: 3 May 2022</li>
-        <li onclick="navigate5(14)"><br>Critical Writing 5:<br>Critical Analysis of my own UX and UI<br> <br>Posted: 28 May 2022</li>
-        <li onclick="navigate5(15)"><br>Critical Writing 6:<br>Internet, Society and Design Justice<br> <br>Posted: 6 June 2022</li>
-        <li onclick="navigate5(16)"><br>Website Reflection:<br>Reflection on website/own work<br> <br>Posted: 8 June 2022</li>
+      
+      <ul class="h-feed blogScroll" id="blogs">
+        <!-- <div class="blogScroll"> -->
+        <li class="blogListItem" onclick="navigate5(10)"><br>Critical Writing 1:<br>A reflection of Simon Harper’s reflection of “As We May Think”<br> <br>Posted: 14 March 2022</li>
+        <li class="blogListItem" onclick="navigate5(11)"><br>Critical Writing 2:<br>What is a browser? How do they work?<br> <br>Posted: 28 March 2022</li>
+        <li class="blogListItem" onclick="navigate5(12)"><br>Critical Writing 3:<br>The Uses of Metadata - What, Why and How?<br> <br>Posted: 16 April 2022</li>
+        <li class="blogListItem" onclick="navigate5(13)"><br>Critical Writing 4:<br>Toward a study of information geographies<br> <br>Posted: 3 May 2022</li>
+        <li class="blogListItem" onclick="navigate5(14)"><br>Critical Writing 5:<br>Critical Analysis of my own UX and UI<br> <br>Posted: 28 May 2022</li>
+        <li class="blogListItem" onclick="navigate5(15)"><br>Critical Writing 6:<br>Internet, Society and Design Justice<br> <br>Posted: 6 June 2022</li>
+        <li class="blogListItem" onclick="navigate5(16)"><br>Website Reflection:<br>Reflection on website/own work<br> <br>Posted: 8 June 2022</li>
+        <!-- </div> -->
       </ul>
+  
+        
+      <!-- <div class="dropDownSort">
+        <button class="sortButton">Sort Blogs</button>
+        <ul class="sortOptions">
+        <li id="recentToOldest" onclick="sortBlogsRecent()">Recent-Oldest</li>
+        <li id="oldestToRecent" onclick="sortBlogsOldest()">Oldest-Recent</li>
+      </ul>
+    </div> -->
+
     </section>
 
     <footer class="h-card">
@@ -56,4 +73,7 @@
   </body>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script type="text/javascript" src="Javascript/navigation.js"></script>
+  
+  <!-- <script type="text/javascript" src="Javascript/slick/slick.min.js"></script>
+  <script  type="text/javascript" src="Javascript/blogList.js"></script> -->
 </html>

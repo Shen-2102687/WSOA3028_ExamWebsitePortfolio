@@ -109,6 +109,11 @@ li.active{
     /*padding: 1vh 1vw;*/
 }
 
+.blogListItem{
+    width: 20%;
+    /*height: 25vh;*/
+}
+
 .blogList ul li a{
     font-size: 20px;
     color: black;
@@ -206,6 +211,7 @@ li.active{
     border-radius: 4px;
     border: none;
     /*cursor: pointer;*/
+    
 }
 
 .sortOptions{
@@ -444,7 +450,8 @@ body{
     border-radius: 8px;
     padding: 50px 70px 50px 70px;
     margin-top: 4%;
-    margin-bottom: 16%;
+    /*margin-bottom: 16%;*/
+    margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -456,6 +463,11 @@ body{
 .indexH1{
     margin-top: 8%;
     margin-left: 30%;
+}
+
+.indexH2{
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .pdfDoc iframe{
@@ -475,7 +487,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    width: 50%;
+    /*width: 50%;*/
+    width: 45%;
 }
 
 .styleGuide{
@@ -483,7 +496,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    width: 60%;
+    /*width: 60%;*/
+    width: 45%;
 }
 
 /*#Home:hover{
@@ -517,6 +531,74 @@ cursor:pointer;
     width: 2%;
     font-size: 20px;
 }
+
+/*.siteSummary{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 15vh 10vw;
+    text-align: center;
+    background-color: #fcfeff;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 1px 5px 1px #b4bbbf;
+    border-radius: 8px;
+    
+}*/
+
+/*.siteSummary div{
+    
+    background-color: red;
+    width: 2vw;
+    height: 25vh;    
+}*/
+
+.game1LogoSummary{
+    /*width: 100%;
+    height: 100%;*/
+    background-image: url("/GamesSummarySlide.jpeg");
+    background-size: 100% 100%;
+    /*border-radius: 8px;*/
+    
+}
+
+.codeLogoSummary{
+    background-image: url("/CodeSummarySlide.jpg");
+    background-size: 100% 100%;
+}
+
+.blogLogoSummary{
+    background-image: url("/BlogSummarySlide.jpg");
+    background-size: 100% 100%;
+}
+
+.contentSlides{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 15vh 10vw;
+    text-align: center;
+    background-color: #fcfeff;
+    /*display: flex;*/
+    align-items: center;
+    box-shadow: 3px 1px 5px 1px #b4bbbf;
+    border-radius: 8px;
+}
+
+.CV{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+    padding: 15vh 10vw;
+    /*text-align: center;*/
+    background-color: #fcfeff;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 1px 5px 1px #b4bbbf;
+    border-radius: 8px;
+    color: #337ba1;
+    font-weight: bold;
+}
+
 
 @media(max-width: 1400px){
     header{
