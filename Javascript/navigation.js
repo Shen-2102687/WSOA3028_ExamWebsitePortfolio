@@ -112,6 +112,12 @@ function navigate5(pages){
         case 16:
             window.location.href = "Blog/blog7.html";
             break;
+        case 17:
+            window.location.href = "Blog/blog8.html";
+            break;
+        case 18:
+            window.location.href = "Blog/blog9.html";
+            break;
     }
 }
 

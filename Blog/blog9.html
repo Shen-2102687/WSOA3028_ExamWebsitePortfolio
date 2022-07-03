@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Webpage for blog post 9" />
+    <meta
+      name="keywords"
+      content="portfolio, website, blogs, internet, reflection, technical, creative, JavaScript"
+    />
+    <title>Blog 7</title>
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/70daf74b97.js"
+      crossorigin="anonymous"
+    ></script>
+    <base href="../" />
+  </head>
+  <body>
+    <!--<h1>Portfolio Website</h1>-->
+    <header>
+      <label for="siteTitle" class="siteTitle">Portfolio Website</label>
+      <nav>
+        <ul id="mobileNav">
+          <li id="Home" onclick="navigate5(1)">Home</li>
+          <li id="Games" onclick="navigate5(2)">Games</li>
+          <li id="codeProjects" onclick="navigate5(3)">Code Projects</li>
+          <li id="Blogs" onclick="navigate5(4)" class="active">Blogs</li>
+          <li id="Design/Wireframes" onclick="navigate5(5)">
+            Design/Wireframes
+          </li>
+        </ul>
+        <label class="iconBars"
+          ><i class="fa-solid fa-bars" onclick="navMobile()"></i
+        ></label>
+      </nav>
+    </header>
+
+    <h1 class="newBlogH1">
+      2nd Critical Reflection on the Technical, Creative and Development Process of
+      this Website</h1>
+
+    <section class="blog1Post">
+      <article class="h-entry">
+        <p class="p-name">
+          2nd Critical Reflection on the Technical, Creative and Development Process
+          of this Website
+        </p>
+        <p>
+            The 1st Critical Reflection details the development and reflection of the website from Assigment 1 to Assignment 2, this
+            post will detail the development and reflection from the end of Assignment 2 to this point.
+        </p>
+        <p>
+            The website has followed an iterative design and development process, building upon what was created for
+            Assignment 1 and 2.
+        </p>
+        <p class="boldTitle">Technical:</p>
+        <p>
+            The semantic and technical practices detailed in the previous reflection post have also been followed for this  
+            assignment.
+        </p>
+        
+        <p>
+            The main technical progress and change for this iteration of the website is the use of Javascript librariers to
+            augment the creative aspect of the website.
+        </p>
+        <p>
+            The technical reasoning behind the chosen Javascript libraries is that they were simple to implement in my
+            source code. This allowed for quick implementation and testing to occur, which aided in the iterative
+            development of the website. Detailed reasonings for the use of these libraries is explained in the blog
+            post for the implementation and analysis of the JavaScript Libraries.
+        </p>
+        <p>
+            The use of JavaScript variables for these librariers is inline with the documentation on how to implement these libraries 
+            into the website. The different Libraries use different variables for different purposes, so the use of variables for them 
+            is based on their specific requirements in their documentation.
+        </p>
+
+        <p>
+            The wireframes documents for the website have also been slightly changed. The wireframes were directly implemented on the website
+            as images to allow for better user engagement, however the images were scaled incorrectly which lead to the paragraph text of the
+            wireframes to appear slightly blurred, which raised a concern for the accessibility considerations of the website.
+        </p>
+        <p>
+            To address this issue the images were scaled down and the text for the paragraphs became clearer.
+        </p>
+        <p>
+            Some of the text on the wireframe documents can appear to have a slight blur at certain viewport displays(for widths greater than 1400px)
+            however this cannot be avoided since the image size and quality cannot be increased otherwise the images will not be correctly optimised
+            and a performance issue can arise.
+        </p>
+        <p>
+            Another concern was raised in relation to the wireframes in that all the wireframe documentation is implemented as images, which
+            limits the accessibility of the documents. While this concern is valid, all the text(except for the viewport paragraph) has been
+            implemented in conjunction with diagrams, and the diagrams and text cannot be separated from one another as it would not be possible
+            to achieve the current logic layout of the wireframes in a manner that could facilitate respsonsive design and collapsing using only CSS styling, so the documentation has remained as images as it is the best possible
+            implementation.
+        </p>
+        <p>
+            A PDF version of the entire wireframe documentation is available for download on the page which can be used as an alternative accessibility method to
+            view the wireframes.
+        </p>
+        <p class="boldTitle">Creative:</p>
+        <p>
+            As mentioned in the previous reflection post, the creativity design goals for the website were achieved in
+            Assignment 2, however the the creativity of the home/profile page was still lacking an implementation that would
+            interest the user and increase their engagement with the website. The home/profile page was simply a box with
+            some text to describe the content of the website. Visually, even though it aligns with the overall design aesthetic
+            of the website, it is boring and uninteresting, and needed to be improved.
+        </p>
+        <p>
+            To improve the creative implementation of this section, both my profile and the content of the page were
+            expanded. For the detailed technical and creative implementation of this, please refer to the blog post for JavaScript
+            Libraries analysis and implementation.
+        </p>
+        <p>
+            A carousel was added to display a summary of the content of the website. The carousel automatically loops
+            through the different sections within it. The content of the carousel has been implemented as custom drawn
+            images that briefly explain the appropriate sections of the website. The visual movement along with the colourful
+            art of the carousel creates a visually interesting form of content display that attracts the user’s attention, which
+            aids in emphasizing the content of the website to them.
+
+        </p>
+        <p>
+            An animated bar graph was implemented to add a visual display of my skillset and experience, and is used to
+            augment the resume that was added to the home page. The animation of the graph visually displays the
+            progress of my skillset through the movement of the line for each skillset. The animation is only played once when
+            the page is loaded to ensure there are no performance drawbacks.
+        </p>
+        <p>
+            This also creates a visually interesting display to the user and helps draw their attention to this section of the
+            webpage. It also acts as an informative summary of my most useful skills, and acts as both introduction to my
+            resume or replaces the need to read it should the user find the necessary information from the graph alone.
+        </p>
+        <p>Further responsive design has been added</p>
+        <p>
+            The version of the website for Assignment 2 catered towards 3 distinct viewport displays for laptop/desktop,
+            tablet and mobile. However, the website display was only guaranteed to function correctly for these 3 viewports.
+            For this current version of the website, responsive design has been added for all viewports. The website will
+            collapse accordingly with no spacing or display errors for all viewports. This change allows anyone to access my portfolio website on any device. This aids in increasing the device accessibility of the website.
+        </p>
+        <p class="boldTitle">Overall Thoughts</p>
+        <p>
+            The iterative development of this website over the semester was useful in allowing for developmental focus to be
+            placed on improvement and implementation of the brief requirements for each specific assignment, ie more time
+            could be spent on the important aspects that were required to be implemented for each assignment since I did
+            not need to start from scratch each time and build a website from the ground up for each website. 
+
+        </p>
+        <p>
+            This allowed me to create a website that both achieved all the design goals that I set for each assignment and
+            that I could be proud to submit.
+        </p>
+        <p class="boldTitle">Conclusion</p>
+        <p>
+            The development of this website was a long iterative process that spanned the entire semester as well as all the assignments
+            for this course, but all the time and effort spent in developing this website has allowed me to produce a website that meets all
+            the requirements of the assignment brief as well as allowing me to achieve all my design goals exactly as I desired.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <p class="backToBlogs" onclick="navigate5(4)">Blog List</p>
+    </section>
+
+    <footer>
+      <p class="h-card">
+        All Code, Games, Images and Documents belong to me, Shen Reddy© 2022
+      </p>
+    </footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.7.1.min.js"
+  ></script>
+  <script type="text/javascript" src="Javascript/navigation.js"></script>
+</html>
