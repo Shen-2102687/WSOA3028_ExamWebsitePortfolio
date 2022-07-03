@@ -599,6 +599,11 @@ cursor:pointer;
     font-weight: bold;
 }
 
+.graphDisplay{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 
 @media(max-width: 1400px){
     header{
