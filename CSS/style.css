@@ -613,6 +613,16 @@ cursor:pointer;
     margin-right: 20%;
 }
 
+.indexH2{
+    margin-left: 45%;
+    font-size: 30px;
+}
+
+.indexH4{
+    margin-left: 50%;
+    font-size: 30px;
+}
+
 
 @media(max-width: 1400px){
     header{
@@ -643,6 +653,184 @@ cursor:pointer;
     }
 
 }
+
+@media(max-width: 1200px){
+    .siteTitle{
+        margin-left: 25px;
+    }
+
+    header nav ul{
+        display: none;
+        /*margin: 0;*/
+        margin-top: 45px;
+        float: left;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(78, 80, 89, 0.941);
+        height: 100vh;
+        width: 95.5vw;
+    }
+
+    .iconBars{
+        display: block;
+        float: right;
+        margin-right: 30px;
+        font-size: 30px;
+        padding: 5px;
+        position: relative;
+        bottom: 11px;
+    }
+
+    .iconBars:hover{
+        /*background: #abbed9;
+        color: #ffffff;*/
+        cursor: pointer;
+    }
+
+    header nav ul li{
+        color: #fffdf5;
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+        /*margin: 0;*/
+        margin-top: 10px;
+        /*position: unset;*/
+        position: relative;
+        top: 1px;
+        margin-left: 10px;
+        width: 95px;
+    }
+
+    li.active{
+        padding: 20px 15px 20px 15px;
+    }
+
+    .indexH1{
+        margin-top: 8%;
+        margin-left: 25%;
+        font-size: 30px;
+    }
+
+    .homeDescription{
+        padding: 10px 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 60px;
+        margin-bottom: 5%;
+    }
+
+    .homeDescription article{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    footer p{
+        position: unset;
+        font-size: 15px;
+    }
+
+    .gamesList ul{
+        margin-top: 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesList ul li{
+        margin: 30px;
+        text-align: center;
+        background-color: #fcfeff;
+        box-shadow: 3px 1px 5px 1px #b4bbbf;
+        border-radius: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        width: 50vw;
+        height: 20vh;
+        padding: 0;
+    }
+
+    .gamesHeading{
+        margin-left: 45%;
+        margin-top: 50px;
+    }
+
+    .codeProjectList ul{
+        margin-top: 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .codeProjectList ul li{
+        margin: 30px;
+        text-align: center;
+        background-color: #fcfeff;
+        box-shadow: 3px 1px 5px 1px #b4bbbf;
+        border-radius: 8px;
+        padding: 0;
+        font-size: 30px;
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .codeProjectHeading{
+        margin-left: 37%;
+        margin-top: 50px;
+    }
+
+    .blogList ul li{
+        font-size: 15px;
+        width: 50vw;
+        height: 15vh;
+    }
+
+    .blogHeading{
+        margin-left: 48%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .dropDownSort{
+        position: relative;
+        left: 4%;
+        top: 60px;
+        display: inline-block;
+    }
+
+    .sortButton{
+        /*padding: 9px;*/
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 15px;
+        border-radius: 4px;
+        border: none;
+        position: relative;
+        right: 5px;
+    }
+
+    .sortOptions{
+        min-width: 70px;
+    }
+
+    .sortOptions li{
+        font-size: 14px;
+    }
+
+    .blog1Post article{
+        font-size: 17px;
+    }
+
+    .References{
+        /*margin: 2% 20% 4% 20%;*/
+        font-size: 13px;
+        overflow-wrap: break-word;
+    }
+
+    .backToBlogs{
+        font-size: 10px;
+    }
+
+
+}
+
 
 @media(max-width: 600px){
     .siteTitle{
@@ -706,7 +894,7 @@ cursor:pointer;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 60px;
-        margin-bottom: 270px;
+        margin-bottom: 5%;
     }
 
     .homeDescription article{
@@ -767,7 +955,7 @@ cursor:pointer;
     }
 
     .blogList ul li{
-        font-size: 15px;
+        font-size: 12px;
         width: 50vw;
         height: 15vh;
     }
@@ -819,4 +1007,19 @@ cursor:pointer;
     }
 
 
+
+    .contentSlides{
+        padding: 8vh 10vw;
+    }
+
+    .CV{
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 400px){
+    .CV{
+        font-size: 10px;
+    }
 }
