@@ -623,6 +623,24 @@ cursor:pointer;
     font-size: 30px;
 }
 
+.newStyleGuide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /*width: 60%;*/
+    width: 30%;
+}
+
+.newStyleGuide1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /*width: 60%;*/
+    width: 40%;
+}
+
 
 @media(max-width: 1400px){
     header{
@@ -1021,5 +1039,6 @@ cursor:pointer;
 @media(max-width: 400px){
     .CV{
         font-size: 10px;
+        
     }
 }
